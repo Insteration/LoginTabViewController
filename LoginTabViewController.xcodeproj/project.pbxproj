@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D99602CA21D40CFC003DA4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99602C921D40CFC003DA4AC /* AppDelegate.swift */; };
-		D99602CC21D40CFC003DA4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99602CB21D40CFC003DA4AC /* ViewController.swift */; };
+		D99602CC21D40CFC003DA4AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99602CB21D40CFC003DA4AC /* LoginViewController.swift */; };
 		D99602CF21D40CFC003DA4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99602CD21D40CFC003DA4AC /* Main.storyboard */; };
 		D99602D121D40CFD003DA4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99602D021D40CFD003DA4AC /* Assets.xcassets */; };
 		D99602D421D40CFD003DA4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99602D221D40CFD003DA4AC /* LaunchScreen.storyboard */; };
+		D99602DC21D4129C003DA4AC /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99602DB21D4129C003DA4AC /* MainTabController.swift */; };
+		D99602DE21D41617003DA4AC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99602DD21D41617003DA4AC /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D99602C621D40CFC003DA4AC /* LoginTabViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTabViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99602C921D40CFC003DA4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D99602CB21D40CFC003DA4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D99602CB21D40CFC003DA4AC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D99602CE21D40CFC003DA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D99602D021D40CFD003DA4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99602D321D40CFD003DA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99602D521D40CFD003DA4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99602DB21D4129C003DA4AC /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		D99602DD21D41617003DA4AC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				D99602C921D40CFC003DA4AC /* AppDelegate.swift */,
-				D99602CB21D40CFC003DA4AC /* ViewController.swift */,
+				D99602CB21D40CFC003DA4AC /* LoginViewController.swift */,
+				D99602DD21D41617003DA4AC /* FirstViewController.swift */,
 				D99602CD21D40CFC003DA4AC /* Main.storyboard */,
+				D99602DB21D4129C003DA4AC /* MainTabController.swift */,
 				D99602D021D40CFD003DA4AC /* Assets.xcassets */,
 				D99602D221D40CFD003DA4AC /* LaunchScreen.storyboard */,
 				D99602D521D40CFD003DA4AC /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99602CC21D40CFC003DA4AC /* ViewController.swift in Sources */,
+				D99602CC21D40CFC003DA4AC /* LoginViewController.swift in Sources */,
 				D99602CA21D40CFC003DA4AC /* AppDelegate.swift in Sources */,
+				D99602DC21D4129C003DA4AC /* MainTabController.swift in Sources */,
+				D99602DE21D41617003DA4AC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
